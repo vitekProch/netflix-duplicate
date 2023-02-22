@@ -1,4 +1,7 @@
+import Movie from "./components/Movie";
 const App = () => {
-  return
+  return(
+    <Movie />
+  )
 }
 export default App;
