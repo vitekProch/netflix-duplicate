@@ -3,12 +3,12 @@ import data from "../data"
 
 const Movie = () => {
     return(
-        <div>
+        <div className="all-movies">
             {
                 data.map( (oneMovie) =>{
                     const{id, image, title, age, tags, description} = oneMovie
                     return (
-                        <div key={id}>
+                        <div key={id} className="one-movie">
                             <img src={image} alt={title} />
                             <h2>{title}</h2>
                             <p>{age}</p>
