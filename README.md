@@ -1,1 +1,1 @@
-# netflix-duplicate
+# simple-netflix-duplicate
